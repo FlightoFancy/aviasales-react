@@ -1,0 +1,30 @@
+.check {
+  padding: 1.2em;
+  padding-left: 3em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.check:hover {
+  background-color: #f1fcff;
+  cursor: pointer;
+}
+.check__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.check__box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/images/checkbox/CheckboxOff.svg);
+  margin-left: -1.2em;
+  margin-top: 1.5px;
+}
+.check__input:checked + .check__box {
+  background-image: url(/src/images/checkbox/CheckboxOn.svg);
+}
+.check__text {
+  padding-left: 0.5em;
+}

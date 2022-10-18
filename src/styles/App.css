@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "open sans";
+  src: url("/src/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf")
+    format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f7fa;
+  font-family: "open sans";
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3em;
+}
+header {
+  text-align: center;
+  padding: 1.5em 0;
+}
+.wrapper-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: "Open Sans";
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0 1em;
+}
+.filter__title {
+  text-transform: uppercase;
+  padding: 1.5em 1.5em 0.5em 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: default;
+  font-weight: 600;
+}
+.tabs {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 2em;
+}
+.tabs__content {
+  width: 100%;
+}
+.tabs__content h2 {
+  text-align: center;
+}
+.error{
+  color:rgb(216, 46, 17);
+  text-align:center;
+}
+.tabs__content__btn {
+  font-family: "open sans";
+  font-style: normal;
+  background: #2196f3;
+  border-radius: 5px;
+  width: 100%;
+  margin: 1em 0 3em 0;
+  height: 50px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  cursor: pointer;
+}

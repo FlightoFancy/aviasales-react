@@ -1,0 +1,42 @@
+.ticket {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  cursor: default;
+}
+.ticket__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
+}
+.ticket__price {
+  font-size: 2em;
+  color: #2196F3;
+}
+.ticket__forward,
+.ticket__back {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.ticket__forward__route,
+.ticket__forward__lenght,
+.ticket__forward__stops,
+.ticket__back__route,
+.ticket__back__lenght,
+.ticket__back__stops {
+  display: flex;
+  flex-direction: column;
+ color: #4A4A4A;
+ font-weight: 600;
+ width: 25%;
+}
+.ticket__route,.ticket__lenght,.ticket__stops{
+  color: #A0B0B9;
+}
+.ticket__lenght,.ticket__time{
+  text-align: center;
+}
