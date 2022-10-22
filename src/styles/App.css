@@ -90,12 +90,14 @@ header {
   }
   .filter {
     margin: 0 0.5em;
-    width: 27vw;
+    min-width: 211px;
   }
   .filter__title {
     font-size: 0.8em;
   }
   .tabs {
     margin: 0 0.5em;
+    min-width: 498px;
   }
 }
+
