@@ -57,9 +57,9 @@ header {
 .tabs__content h2 {
   text-align: center;
 }
-.error{
-  color:rgb(216, 46, 17);
-  text-align:center;
+.error {
+  color: rgb(216, 46, 17);
+  text-align: center;
 }
 .tabs__content__btn {
   font-family: "open sans";
@@ -76,4 +76,26 @@ header {
   letter-spacing: 0.5px;
   line-height: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin: 0 0.5em;
+  }
+  header {
+    padding: 0.5em 0;
+  }
+  .wrapper-container {
+    justify-content: flex-start;
+  }
+  .filter {
+    margin: 0 0.5em;
+    width: 27vw;
+  }
+  .filter__title {
+    font-size: 0.8em;
+  }
+  .tabs {
+    margin: 0 0.5em;
+  }
 }

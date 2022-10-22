@@ -14,7 +14,7 @@
 }
 .ticket__price {
   font-size: 2em;
-  color: #2196F3;
+  color: #2196f3;
 }
 .ticket__forward,
 .ticket__back {
@@ -30,13 +30,31 @@
 .ticket__back__stops {
   display: flex;
   flex-direction: column;
- color: #4A4A4A;
- font-weight: 600;
- width: 25%;
+  color: #4a4a4a;
+  font-weight: 600;
+  width: 25%;
 }
-.ticket__route,.ticket__lenght,.ticket__stops{
-  color: #A0B0B9;
+.ticket__route,
+.ticket__lenght,
+.ticket__stops {
+  color: #a0b0b9;
 }
-.ticket__lenght,.ticket__time{
+.ticket__lenght,
+.ticket__time {
   text-align: center;
+}
+@media (max-width: 768px) {
+  .ticket {
+    margin-bottom: 1em;
+  }
+  .ticket__header {
+    padding: 0.8em 0.8em 0 0.8em;
+  }
+  .ticket__price {
+    font-size: 1.8em;
+  }
+  .ticket__forward,
+  .ticket__back {
+    padding: 0.8em;
+  }
 }

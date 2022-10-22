@@ -29,4 +29,14 @@
     background: #2196f3;
     color: #fff;
   }
+
+  @media (max-width: 768px) {
+    .tabs__list {
+      margin-bottom: 1em;
+    }
+    .tabs__item{
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
   

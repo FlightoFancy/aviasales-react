@@ -28,3 +28,12 @@
 .check__text {
   padding-left: 0.5em;
 }
+@media (max-width: 768px) {
+  .check {
+    padding: 1em;
+    padding-left: 3em;
+  }
+  .check__text {
+    font-size: 0.9em;
+  }
+}
